@@ -19,28 +19,27 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background-color: #f2f2f2;  
-  position: relative; 
-  
+  background-color: #f2f2f2;
+  position: relative;
   /* выше установили ограничения для секции */
 }
 
 /* лого Яндекс */
 .header__logo-place {
   width: 183px;
-  height: 32px;  
+  height: 32px;
   left: 64px;
   top: 30px;
-  position: absolute;  
+  position: absolute;
 }
 
 /* текст "научиться учиться" */
-.header__title {   
+.header__title {
   margin-left: 64px;
   width: 730px;
-  line-height: 96px;    
+  line-height: 96px;
   font-size: 102px;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 /* текс нижний левый угол */
@@ -58,12 +57,12 @@
 .header__main-illustration {
   background-image: url('../images/header-image.png');
   width: 765px;
-  height: 608px;  
+  height: 608px;
   background-size: cover;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   position: absolute;
   bottom: 0;
-  right: 0;  
+  right: 0;
   z-index: 1;
 }
 
@@ -74,23 +73,20 @@
   background-color: #2f80ed;
   position: absolute;
   top: 64px;
-  right: 0;  
+  right: 0;
 }
 
-
 .description {
-  display: flex; 
-  justify-content: center;
-  
+  display: flex;
+  justify-content: center;  
  }
 
 /* таблица на 2 колонки */
 .two-columns {
-  margin-top: 100px; 
+  margin-top: 100px;
   width: 80%;
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-between;  
 }
 
 .two-columns__brief {
@@ -98,18 +94,18 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  color: #2f80ed;  
+  color: #2f80ed;
   }
 
 .two-columns__main-text {
   width: 80%;
-  min-width: 784px;  
+  min-width: 784px;
 }
 
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
-  font-weight: normal; 
+  font-weight: normal;
 }
 
 .two-columns__span-accent {
@@ -119,11 +115,10 @@
 }
 
 /* Цифры и факты */
-
 .digits {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   margin-bottom: 100px;
 }
 
@@ -133,7 +128,7 @@
   line-height: 1.15;
   font-weight: bold;
   font-size: 60px;
-  text-align: center; 
+  text-align: center;
 }
 
 .digits__section-subtitle {
@@ -151,7 +146,7 @@
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 /* вложения 8ед. */
@@ -163,7 +158,7 @@
 .digits__table_heading {
   line-height: 1.15;
   font-weight: bold;
-  font-size: 24px;  
+  font-size: 24px;
 }
 
 .digits__table_text {
@@ -176,9 +171,9 @@
 /* Метод Фейнмана */
 .feynman {  
   display: flex;
-  position: relative; 
+  position: relative;
   flex-direction: column;
-  align-items: center;   
+  align-items: center;
   height: 790px;
  }
 
@@ -212,12 +207,12 @@
 .feynman__main-illustration {
   background-image: url('../images/feynman.png');
   width: 867px;
-  height: 637px;  
+  height: 637px;
   background-size: cover;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   position: absolute;
   bottom: 0;
-  left: 0;    
+  left: 0;
 }
 
 
@@ -225,11 +220,10 @@
 .kaufman {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   background-color: #1f1f1f;
-  position: relative; 
-  overflow: hidden;
-  
+  position: relative;
+  overflow: hidden;  
 }
 
 .kaufman__section-title_theme_dark {
@@ -238,7 +232,7 @@
   line-height: 69px;
   font-weight: bold;
   font-size: 60px;
-  text-align: center; 
+  text-align: center;
   color: white;
   z-index: 1;
 }
@@ -255,14 +249,14 @@
 }
 
 .kaufman__triangle {
-  background-image: url('../images/kaufman-triangle.svg');  
+  background-image: url('../images/kaufman-triangle.svg');
   width: 877px;
-  height: 877px;  
+  height: 877px;
   background-size: cover;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
-  right: -210px;  
+  right: -210px;
 }
 
 .kaufman__table_theme_dark {
@@ -270,7 +264,7 @@
   margin: 0 auto 90px auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;  
+  justify-content: space-between;
   z-index: 1;
 }
 
@@ -286,7 +280,7 @@
 .kaufman__table_heading_theme_dark {
   line-height: 1.15;
   font-weight: bold;
-  font-size: 24px;  
+  font-size: 24px;
   color: white;
 }
 
@@ -301,7 +295,7 @@
 /* Footer */
 .footer { 
   display: flex;
-  min-height: 350px;  
+  min-height: 350px;
   background-color: #1f1f1f;
   justify-content: center;
   flex-basis: 711px;
@@ -309,27 +303,26 @@
 }
 
 .footer__columns {
-  display: flex;     
-  width: 90%;  
-  justify-content: space-between;  
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
   margin-bottom: 40px;
 
 }
 
 .footer__columns_content_copyright { 
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
   flex-direction: column;
 }
 
 .footer__logo-place {
   width: 183px;
-  height: 35px;   
- 
+  height: 35px; 
 }
 
-.footer__columns_content_copyright_author { 
-  margin-bottom: 18px;   
+.footer__columns_content_copyright_author {
+  margin-bottom: 18px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -343,7 +336,6 @@
 }
 
 .footer__columns-heading {
-
  line-height: 30px;
  font-size: 18px;
  font-weight: bold;
@@ -359,5 +351,7 @@
 }
 
 .footer__columns_social {
+  weight: 16px;
+  height: 16px;
 }
 
