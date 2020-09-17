@@ -30,7 +30,7 @@ p, h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 183px;
   height: 32px;
-  left: 64px;   
+  left: 64px;
   top: 30px;
 }
 
@@ -317,10 +317,10 @@ p, h1, h2, h3, h4, h5, h6 {
 /* Footer */
 .footer { 
   display: flex;
-  flex-basis: 711px;  
+  flex-basis: 711px;
   min-height: 350px;
   background-color: #1f1f1f;
-  justify-content: center;  
+  justify-content: center;
   padding: 60px 0 40px;
   box-sizing: border-box;
 }
@@ -367,7 +367,7 @@ p, h1, h2, h3, h4, h5, h6 {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  color: white; 
+  color: white;
   text-decoration: none;  
 }
 
