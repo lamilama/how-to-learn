@@ -2,6 +2,9 @@ p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+ul {
+  padding-left: 0;
+}
 
 
 .page {
@@ -41,6 +44,7 @@ p, h1, h2, h3, h4, h5, h6 {
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  z-index: 2;
 }
 
 /* текс нижний левый угол */
@@ -52,6 +56,7 @@ p, h1, h2, h3, h4, h5, h6 {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .header__link {
@@ -164,18 +169,18 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* вложения 8ед. */
-.table_cell {
+.table__cell {
   width: 250px;
   margin-top: 60px;  
 }
 
-.table_heading {
+.table__heading {
   line-height: 1.15;
   font-weight: bold;
   font-size: 24px;
 }
 
-.table_text {
+.table__text {
   margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
@@ -270,7 +275,7 @@ p, h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 
-.triangle {
+.kaufman__triangle {
   background-image: url('../images/kaufman-triangle.svg');
   width: 877px;
   height: 877px;
@@ -292,21 +297,21 @@ p, h1, h2, h3, h4, h5, h6 {
 
 
 /* и элемента с модификатором вида ключ-значение */
-.table_cell_theme_dark {
+.table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
 }
 
-.table_heading_theme_dark {
+.table__heading_theme_dark {
   line-height: 1.15;
   font-weight: bold;
   font-size: 24px;
   color: white;
 }
 
-.table_text_theme_dark {
+.table__text_theme_dark {
   margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
@@ -316,8 +321,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Footer */
 .footer { 
-  display: flex;
-  flex-basis: 711px;
+  display: flex; 
   min-height: 350px;
   background-color: #1f1f1f;
   justify-content: center;
@@ -333,11 +337,12 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .footer__column_content_copyright { 
   display: flex;
+  flex-basis: 711px;
   justify-content: space-between;
   flex-direction: column;
 }
 
-.footer__logo-place {
+.logo_place_footer {
   width: 183px;
   height: 35px; 
 }
@@ -350,7 +355,7 @@ p, h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-.footer__column_content-info {
+.footer__column_content_info {
   list-style-type: none;
   margin-top: 0;
 }
@@ -368,10 +373,14 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   font-weight: normal;
   color: white;
-  text-decoration: none;  
+  text-decoration: none;   
 }
 
-.footer__column-social {
+.footer__column_social-icon {
+  padding-right: 10px;
+}
+
+.footer__column_social {
   margin-top: 0;
   list-style-type: none;
 }
