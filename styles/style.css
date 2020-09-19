@@ -9,9 +9,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;  
 }
 
-*{
-  outline: 1px solid red;
-  }
+
 
 .header {
   display: flex;
