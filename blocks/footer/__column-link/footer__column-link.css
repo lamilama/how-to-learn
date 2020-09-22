@@ -4,5 +4,11 @@
     font-weight: normal;
     color: white;
     text-decoration: none;
-    list-style-type: none;  
+    list-style-type: none;
+    opacity: 1; 
   }
+ 
+.footer__column-link:hover {
+  opacity: .2;
+  transition: opacity 1s;
+}
